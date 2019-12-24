@@ -1,3 +1,5 @@
+#include "settings.h"
+
 #if (IR_ON == 1) && (KOL_LED > IR_MAX_LEDS)
 #error "Значение KOL_LED должно быть меньше или равно IR_MAX_LEDS"
 #endif
